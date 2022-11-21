@@ -4,7 +4,7 @@ public class IndicatorSelectionResponse : MonoBehaviour, ISelectionResponse
 {
     [SerializeField] private GameObject indicatorPrefab;
     [SerializeField] private Vector3 offset;
-    [SerializeField] private Vector3 rotation;
+    
 
     private GameObject _indicator;
 
@@ -15,11 +15,7 @@ public class IndicatorSelectionResponse : MonoBehaviour, ISelectionResponse
         
     }
 
-    public void Update()
-    {
-        _indicator.transform.Rotate(rotation * Time.deltaTime);
-    }
-
+   
     public void OnDeselect(Transform selection)
     {
         if (_indicator != null)

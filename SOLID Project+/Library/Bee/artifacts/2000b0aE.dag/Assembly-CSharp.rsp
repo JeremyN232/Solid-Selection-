@@ -353,6 +353,7 @@
 "Assets/_Project/Scripts/OutlineSelectionResponse.cs"
 "Assets/_Project/Scripts/RayCastBasedTagSelector.cs"
 "Assets/_Project/Scripts/ResponsiveSelector.cs"
+"Assets/_Project/Scripts/Rotator.cs"
 "Assets/_Project/Scripts/Selectable.cs"
 "Assets/_Project/Scripts/SelectionManager.cs"
 "Assets/_Project/Scripts/Switcher.cs"
